@@ -1,8 +1,0 @@
-DECLARE "m/ massa" 	
-DECLARE "a/ " 
-DECLARE "F/resultan_gaya" 
-STORE "m" with value 600
-STORE "a" with value 2
-CALCULATE "a" times "m"
-STORE "CALCULATE RESULT" to F
-DISPLAY F  

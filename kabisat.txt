@@ -1,7 +1,0 @@
-READ and SAVE "year"
-IF "year" mod 4 equals to 0 and "year" mod 100 not equals to 0
-ELSE IF "year" mod 4 equals to 0 and "year" mod 100 equals to 0 and "year" mod 400 equals to 0  	
-  DISPLAY "Tahun Kabisat"
-ELSE
-  DISPLAY "Bukan tahun Kabisat"
- 

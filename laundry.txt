@@ -1,6 +1,0 @@
-STORE "count" to 1
-WHILE "count" < 20
-  ADD "count" by 1
-
-DISPLAY "count"
-  
