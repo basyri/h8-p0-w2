@@ -28,14 +28,14 @@ DISPLAY "count"
   
 4. Priksa Kuku
 
-DECLARE "kuku" as constant
-STORE "kuku" to panjang
+STORE "kuku panjang" to any number
 STORE "siswa" to 0
 WHILE "siswa" < 40
-  IF "siswa" equals to "kuku"
+  IF "siswa" equals to "kuku panjang"
     DO "guru menghukum siswa/siswi"
   ELSE 
     DO "guru memuji siswa/siswi"
+
 
 
 
