@@ -1,12 +1,12 @@
 1. Newtin II
 
-DECLARE "m/ massa" 	
-DECLARE "a/ " 
-DECLARE "F/resultan_gaya" 
+DECLARE "m" that mean masa	
+DECLARE "a" that mean percepatan 
+DECLARE "F" that mean Resultan gaya 
 STORE "m" with value 600
 STORE "a" with value 2
 CALCULATE "a" times "m"
-STORE "CALCULATE RESULT" to F
+STORE "CALCULATE result" to F
 DISPLAY F  
 
 2. Tahun Kabisat
@@ -20,7 +20,7 @@ ELSE
  
 3. Laundry
 
-STORE "count" to 1
+STORE "count" to 0
 WHILE "count" < 20
   ADD "count" by 1
 
@@ -30,11 +30,12 @@ DISPLAY "count"
 
 DECLARE "kuku" as constant
 STORE "kuku" to panjang
-STORE "siswa" to 1
+STORE "siswa" to 0
 WHILE "siswa" < 40
   IF "siswa" equals to "kuku"
     DO "guru menghukum siswa/siswi"
   ELSE 
     DO "guru memuji siswa/siswi"
+
 
 
